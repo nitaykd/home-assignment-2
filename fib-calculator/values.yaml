@@ -12,14 +12,14 @@ server:
     repository: 289512055556.dkr.ecr.eu-central-1.amazonaws.com/nitaykd-assignment/server
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "0.0.7"
+    tag: "0.0.9"
 
 worker:
   image:
     repository: 289512055556.dkr.ecr.eu-central-1.amazonaws.com/nitaykd-assignment/worker
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "0.0.7"
+    tag: "0.0.9"
 
 client:
   service:
@@ -29,7 +29,7 @@ client:
     repository: 289512055556.dkr.ecr.eu-central-1.amazonaws.com/nitaykd-assignment/client
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: "0.0.7"
+    tag: "0.0.9"
 
 
 mysql:
